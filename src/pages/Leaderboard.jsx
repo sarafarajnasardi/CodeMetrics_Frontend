@@ -147,7 +147,6 @@ const Leaderboard = () => {
           id: `unknown-${Math.random()}`,
         };
       }
-
       try {
         const cfSubmissionsResponse = await fetch(
           `https://codeforces.com/api/user.status?handle=${user.codeforcesUsername}&from=1&count=100`
