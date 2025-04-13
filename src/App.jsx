@@ -8,6 +8,7 @@ const app=()=>{
   return(
     <Router>
     <Routes>
+      
         <Route path='/'element={<AuthPages></AuthPages>}/>
         <Route path='/Homepage/:userId' element={<HomePage/>}/>
         <Route path='/user-detail/:username' element={<UserDetailsPage/>}/>
